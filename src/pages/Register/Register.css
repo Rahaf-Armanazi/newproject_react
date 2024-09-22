@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+body{margin:0}
+.registerpage{
+    box-shadow: 0px 0px 50px rgb(43 41 11);    margin-right: 3px;
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    width: 40%;
+    height:80%;
+    border-radius: 30%;
+    border: 2px solid #ad6747;
+    background-color: rgb(140 124 34 / 24%);
+    align-items: center ;
+}
+.reg-title{
+text-align: center;
+color: aliceblue;
+margin-bottom: 40px;
+}
+.input-box{
+    position: relative;
+    width: 84%;
+    height: 50px;
+    background: transparent;
+    margin: 30px 35px;
+    color: #fff;
+    border-bottom: 2px solid #fefafaa3;
+}
+.input-box input{
+    width: 80%;
+    height: 100%;
+    margin-left: calc(40%/4);
+    background:transparent;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight:500;
+    padding-right: 20px;
+}
+.input-box label{
+    position: absolute;
+    left: 60px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: .5s;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top:-5px;
+}
+
+/*input[type="text"]:focus, input[type="email"]:focus, select:focus,select:hover {
+    background-color:none; /* {إزالة الخلفية} */
+     /* إزالة الإطار الافتراضي */
+     /* لون النص */
+    /* border: 1px solid #ccc; يمكنك إضافة حدود إذا رغبت */
+/* } */
+input[type="email"] {
+    appearance: none;
+    -webkit-appearance: none; /* لجوجل كروم وسفاري */
+    -moz-appearance: none;}
+    input[type="email"]:focus {
+        background-color: transparent; /* لون الخلفية عند التركيز */
+        border-color:transparent; /* لون الحدود عند التركيز */
+        outline: none; /* إزالة الإطار الافتراضي */
+    }
+ .btn{
+    width: 40%;
+    margin-left:27%;
+    height:45px;
+    border: none;
+    outline: none;
+    border-radius:40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    cursor:pointer;
+    font-size: 16px;
+    color: #222;
+    font-weight: 600;
+    transition: .5s;
+    text-decoration: none;
+}
+ .btn:hover{
+    background: rgb(200, 136, 46);
+    /* padding-right: 10px; */
+    color: aliceblue;
+    text-decoration: dashed;
+}
+.input-box .icon{
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 19px;
+    color: #fff;
+}
+.all-input{
+    width: 20%;
+}
+.h2Rej{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -9px;
+    margin-top: 15%;
+    color: rgb(243, 237, 242);
+}
+p{
+    margin-left: 6px;
+    padding: 10px 10px 0px 10px;
+    font-size: 17px;
+    color: #fff;
+}
+
+.reg-title{
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 40px;
+}

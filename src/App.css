@@ -1,0 +1,33 @@
+.App {
+    
+    /* background-image: url("./Assets/final.jpg");
+    object-fit: cover;
+    width: 100%;   
+    background-repeat: no-repeat;
+    background: fixed; */
+}
+.AppSideBar {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    display: flex;
+  }
+  @media(max-width:768px)
+{
+    .sition{
+        min-height: 100vh;
+    }
+}
+ @media(min-width:770px)
+{
+    .sition{
+        min-height: 100vh;
+    }
+}
+/* @media(min-width:1200px)
+{
+    .App{
+        width:1170px;
+    }
+} */

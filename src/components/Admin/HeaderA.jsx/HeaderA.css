@@ -1,0 +1,65 @@
+.containA{
+    background-image: url("../../../Assets/admin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 18px 150px; */
+    margin: 0 auto;
+    /* color: burlywood; */
+    box-shadow: 0px 0px 50px #fff;
+    border-bottom: 1px solid #fff;
+}
+.shfaf{
+    background-color: rgba(107, 87, 34, 0.644);
+}
+.button {
+    outline: none;
+    border: none;
+    background-color: #5c462c;
+    padding: 0px 20px;
+    margin: 21% 0%;
+    color: #dcd8d2;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid #3c2e0b;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px;
+}
+.button1:hover{
+    background-color: rgb(172 69 69);
+    color: white;
+}
+.button2:hover{
+    background-color: rgb(153,172,69);
+    color: white;
+}
+.nameAdmin{
+    /* outline:none;
+    border:none;
+    background-color: bisque;
+    padding:10px 20px;
+    color: burlywood;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:0.3s;
+    border:2px solid white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 25px; */
+    margin-left: 4%;
+}
+.d-flex{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+}
+.nav{
+    background-color: rgba(107, 87, 34, 0.644);
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:100px;
+}

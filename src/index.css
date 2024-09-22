@@ -1,0 +1,10 @@
+body {
+    background-image: url("./Assets//final.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;max-width: 100%;
+    max-height: max-content;
+    /* overflow-y: hidden; */
+}

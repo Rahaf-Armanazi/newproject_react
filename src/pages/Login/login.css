@@ -1,0 +1,177 @@
+.loginpage{
+    box-shadow: 0px 0px 50px rgb(43 41 11);
+    margin-right: 3px;
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    width: 40%;
+    height: 80%;
+    border-radius: 30%;
+    border: 2px solid #95723d;
+    background-color: rgb(194 132 22 / 24%);
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+.loginpage .logreg-box{
+    width: 100%;
+}
+.loginpage .logreg-title{
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 40px;
+}
+.logreg-title h2{
+    font-size: 32px;
+}
+
+.logreg-title p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.input-box{
+    position: relative;
+    width: 84%;
+    height: 50px;
+    /* background: pink; */
+    margin: 30px 35px;
+    border-bottom: 2px solid #fefafaa3;
+}
+/* login.css */
+.input-box input {
+    width: 80%;
+    height: 100%;
+    margin-left: calc(40%/4);
+    background: transparent; /* تعيين الخلفية كخلفية شفافة */
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    padding-right: 20px;
+}
+
+.input-box label{
+    position: absolute;
+    left: 60px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: .5s;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top:-5px;
+}
+.input-box .icon{
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 19px;
+    color: #fff;
+}
+.logreg-box .remember-forget{
+    font-size: 14.5px;
+    color: #fff;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: space-around;
+}
+.remember-forget label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.remember-forget a{
+    color:#fff;
+    text-decoration: none;
+}
+.remember-forget a:hover{
+    text-decoration: underline;
+}
+.logreg-box .btn{
+    width: 40%;
+    margin-left:27%;
+    height:45px;
+    border: none;
+    outline: none;
+    border-radius:40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    cursor:pointer;
+    font-size: 16px;
+    color: #232020;
+    font-weight: 600;
+    transition: .7s;
+    text-decoration: none;
+}
+.logreg-box .btn:hover{
+    background: rgb(200, 136, 46);
+    color: aliceblue;
+    text-decoration: dashed;
+}
+.logreg-box .reg{
+    font-size:14px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 25px;
+}
+.logreg-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.logreg-link span:hover{
+    text-decoration: underline;
+}
+.din{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 3% 10%; */
+}
+.labin{
+    padding: 3%;
+}
+.h2res{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -9px;
+    margin-top: 20%;
+    font-size: 1.5rem;
+    /* margin-bottom: 3%; */
+    color: rgb(243, 237, 242);
+}
+@media(max-width:870px){
+.h2res{
+    padding: 2%;
+    margin: 16%;
+    word-wrap: break-word;
+ /* font-size:1.2rem; */
+}
+.input-box{
+    margin:19% 5%;
+}
+}
+.resettt{
+    box-shadow: 0px 0px 50px rgb(43 41 11);
+    margin-right: 3px;
+    position: absolute;
+    top: 27%;
+    right: 30%;
+    width: 35%;
+    height: 65%;
+    border-radius: 30%;
+    border: 2px solid #95723d;
+    background-color: rgb(194 132 22 / 24%);
+    align-items: center;
+    z-index: 100;
+}

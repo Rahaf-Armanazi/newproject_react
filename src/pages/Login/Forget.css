@@ -1,0 +1,33 @@
+.logfor{
+    box-shadow: 0px 0px 50px rgb(43 41 11);
+    margin-right: 3px;
+    position:absolute;
+    top: 30%;
+    right: 30%;
+    width: 40%;
+    height: 60%;
+    border-radius: 30%;
+    border: 2px solid #95723d;
+    background-color: rgb(194 132 22 / 24%);
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+.cp{
+    padding: 0 5%;
+    font-family:cursive;
+    font-style: italic;
+    font-size: x-large;
+}
+.inem{
+    width: 50%;
+    height: 100%;
+    margin-left: calc(40% / 4);
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    padding-right: 20px;
+}

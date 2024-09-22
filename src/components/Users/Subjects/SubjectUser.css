@@ -1,0 +1,75 @@
+.Subjectuser{
+    box-shadow: 0px 0px 50px rgb(225, 225, 212);
+    margin-right: 3px;
+    position: absolute;
+    top: 18%;
+    right: 18%;
+    width: 60%;
+    height: 80%;
+    border-radius: 30%;
+    border: 2px solid #e0cfb5;
+    background-color: rgba(236, 219, 207, 0.88);
+    /* display: flex;
+    align-items: center; */
+    z-index: 100;
+}
+.con{
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 100%;
+    height: 72%;
+    overflow: auto;
+}
+.indexl{
+    display: inline-block;
+    margin: 2%;
+    width: 7%;
+    font-size: x-large;
+    color: rgb(24, 24, 5);
+}
+.liname{
+    display: inline-block;
+    margin: 2%;
+    width: 40%;
+    font-size: x-large;
+    color: rgb(24, 24, 5);
+    /* color: rgb(84, 87, 31); */
+}
+.linamem{
+    display: inline-block;
+    margin: 2%;
+    width: 30%;
+    font-size: x-large;
+    color: rgb(24, 24, 5);
+}
+.open{
+    display: inline-block;
+    width: 20%;
+    font-size: x-large;
+    cursor: pointer;
+    color: rgb(7, 7, 1);
+}
+.opensub{
+    display: inline-block;
+    width: 40%;
+    cursor: pointer;
+    color: rgb(7, 7, 1);
+}
+.bbb{
+    display: flex;
+    margin: 0 40%;
+    width: 20%;
+    padding: 7px 66px;
+    border-radius: 11cap;
+    font-size: x-large;
+    cursor: pointer;
+    color: rgb(84, 87, 31);
+}
+.sss{
+    text-decoration: none;
+     color: #ad8233;
+}
+.sss:hover{
+    color: #d68710;
+    text-decoration: underline;
+}

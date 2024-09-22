@@ -1,0 +1,213 @@
+.backgroundSubject{
+    padding: 20px;
+    background-color: aliceblue;
+    margin-top: 0px;
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../../Assets/test.jpeg');
+    border: #f1f7f2;
+}
+.h3Sub{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2C303B;
+    line-height: 3rem;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: end;
+    border-bottom: 1px solid #2C303B;
+}
+.contSub{
+    width: 80%;
+    box-shadow: 2px 0px 70px rgb(43 41 11);
+    border-radius: 10%;
+    background-color: rgba(227, 227, 227, 0.865);
+    padding: 3%;
+    margin-left: 19%;
+    margin-top: 2%;
+    margin-right: 19%;
+    margin-bottom: 2%;
+    border: 5px solid rgba(109, 92, 92, 0.881);
+    font-size: x-large;
+}
+.for1{
+    /* display: flex; */
+    flex-wrap: wrap;
+    column-gap: normal;
+    margin-left: 6%;
+    margin-top: 10%;
+}
+.formSub{
+    flex: 0 0 calc(45% );/* Flex-grow, flex-shrink, and basis*/
+}
+.labSub{
+    margin-left: 5%;
+    margin-bottom: 3%;
+    margin-top: 4%;
+    color:rgb(35, 44, 15);
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.inSub{
+    padding: 3% 3%;
+    width: 60%;
+    border-radius: 34cap;
+    font-size: 20px;
+    margin: 3% 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inSubfile{
+    border: 1px solid black;
+    background-color: #fefefe;
+    color: gray;
+}
+.butt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 13%;
+    margin-bottom: 2%;
+}
+.btSub{
+    width: 100%;
+    padding: 3% 20%;
+    border-radius: 34cap;
+    font-size: 15px;
+    margin-top: -20.5%;
+    margin-right: 19%;
+    margin-left: -7%;
+    margin-bottom:7%;
+    font-weight: 300;
+    font-size: 30px;
+    border-radius: 34cap;
+    cursor: pointer;
+    color: rgb(84, 87, 31);
+}
+.btSub:hover{
+    color: burlywood;
+    background-color:  rgb(84, 87, 31);
+}
+.h3M{
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+    color: rgb(84, 87, 31);
+    border-bottom: 0.3px solid;
+}
+.tabS{
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    padding: 3% ;
+    background-color: rgba(225, 231, 228, 0.842);
+    border: 3px solid rgba(4, 6, 2, 0.516);
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.thSu{
+    border: 1px solid rgba(57, 48, 39, 0.82);
+    padding: 0.75rem;
+    text-align: center;
+    background-color: rgba(41, 43, 34, 0.44);
+    color: #fefafa;
+    font-size: 75%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.tdSu{
+    border: 1px solid rgba(57, 48, 39, 0.82);
+    padding: 1%;
+    text-align: center;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    color: #2C303B;
+    background-color: #fefafa;
+}
+.b{white-space: nowrap;}
+.btnSub{
+    padding: 6%;
+    margin: 5%;
+    font-size: 90%;
+}
+.btnSub:hover{
+    color: #fefafa;
+    background-color: rgba(41, 43, 34, 0.44);
+}
+.table-container {
+    width: 100%; /* عرض الإطار */
+    height: 86%; /* ارتفاع الإطار */
+    overflow: auto; /* تفعيل التمرير */
+    border: 1px solid #000; /* إضافة إطار حول الحاوية */
+}
+.aha{
+    color:black ;
+    margin-left:30%;
+}
+.btnBackSubject{
+    border-radius: 34cap;
+    font-size: 15px;
+    font-weight: 300;
+    font-size: 30px;
+    border-radius: 34cap;
+    cursor: pointer;
+    color: rgb(84, 87, 31);
+}
+.forSubject{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: normal;
+    margin:2%;
+}
+.formSub{
+    display: flex;
+}
+.labnameoflec{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-right: 2%;
+    color: rgb(24, 27, 18);
+    font-size: 1.3rem;
+    width: 54%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.inlect{
+    word-wrap: break-word;
+    border-radius: 34cap;
+    font-size: 15px;
+    padding-left: 2%;
+    width:350px;
+}
+.btShowSub{
+    width:20%;
+    margin-left: 2%;
+    margin-top: 0%;
+    padding: 2%;
+    border-radius: 11cap;
+    cursor: pointer;
+    font-size: 70%;
+    color: rgb(84, 87, 31);
+}
+.btShowSub:hover{
+    background-color: rgb(84, 87, 31);
+    color:#f1f7f2;
+}
+.h3Mm{
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+    color: rgb(84, 87, 31);
+    margin-bottom: 1%;
+}
+.table-containerS{
+    margin: 3%;
+    width: 95%;
+    height: 65%;
+    overflow: auto;
+    border: 0px solid #000;
+}

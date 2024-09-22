@@ -1,0 +1,210 @@
+.backQuiz{
+    box-shadow: 0px 0px 50px rgb(43 41 11);
+    position: absolute;
+    top: 3%;
+    right: 10%;
+    width: 80%;
+    height:90%;
+    border: 2px solid #95723d;
+    background-color: rgb(194 132 22 / 24%);
+    display: flex;
+    align-items: center;
+    z-index: 50;
+}
+.backQuiz .quiz-box{
+width: 100%;
+}
+ز
+.titQuiz{
+    text-align: center;
+    margin-bottom: 4px;
+    margin-top:6px;
+}
+.btn-nextHome{
+    /* display: contents; */
+    margin: 8px;
+    top:1px;
+    padding: 9px 29px;
+    width: 100px;
+    background-color: rgb(190 117 68);;
+    border-radius: 9px;
+    color: white;
+    font-size: 20px;
+    font-family:initial ;
+    border-color: brown;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-nextHome:hover{
+    background-color: beige;
+    color: brown;
+}
+.titQuiz .h111{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    font-size: 40px;
+    color:rgb(165, 100, 56);
+}
+.containerQui{
+    position: relative;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    /* color: #262626; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+hr{
+    height: 2px;
+    border: none;
+    background: #e4cfe2;
+    display: flex;
+    justify-content: center;
+}
+.h2Q{
+    padding-left: 30%;
+    font-weight:500;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+ul .liQ:hover{
+    background-color: rgb(190 117 68);
+    font-size: x-large;
+    color: #fefefe;
+}
+.liQ{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+    padding-left: 33px;
+    border: 2px solid rgb(217 199 202);
+    margin: 13px;
+    border-radius: 32px;
+    font-size: larger;
+    cursor: pointer;
+}
+.btn-next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+    width: 100px;
+    background-color: rgb(190 117 68);;
+    border-radius: 9px;
+    color: white;
+    font-size: 20px;
+    font-family:initial ;
+    border-color: brown;
+    margin:auto;
+    cursor: pointer;
+}
+.btn-next:hover{
+    background-color: beige;
+    color: brown;
+}
+.index{
+    margin: auto;
+    font-size: 20px;
+    color: #f1edea;   
+}
+.anscorrect{
+    background-color: rgba(100, 241, 206, 0.386);
+    border-color: green;
+}
+.answrong{
+    background: rgba(219, 57, 57, 0.217);
+    border-color: red;
+}
+@media (max-width: 1300px) {
+    .sition {
+        min-height: 100vh;
+    }
+}
+.sition{
+    min-height: 100vh;
+    height: 100%;
+    background: fixed;
+    background-size: cover;
+  }
+  .pageQuiz{
+    box-shadow: 0px 0px 50px rgb(225, 225, 212);
+    margin-right: 3px;
+    position: absolute;
+    top: 18%;
+    right: 18%;
+    width: 60%;
+    height: 80%;
+    border-radius: 30%;
+    border: 2px solid #e0cfb5;
+    background-color: rgba(236, 219, 207, 0.88);
+    z-index: 100;
+  }
+  .typeShowuser{
+    margin-top: 5%;
+    margin-left: 15%;
+    width: 100%;
+    height: 72%;
+    overflow: auto;
+  }
+  .h1quiiii{
+    margin-top:8% ;
+    margin-left: 40%;
+    color:peru;
+  }
+  .ulShstart{
+    display: inline-block;
+    margin: 2%;
+    width: 30%;
+    color: rgb(84, 87, 31);
+  }
+  .ulShnamest{
+    display: inline-block;
+    margin: 2%;
+    width: 35%;
+    font-size: 30px;
+    color: rgb(84, 87, 31);
+  }
+  .ulShidnnn{
+    display: inline-block;
+    margin: 2%;
+    width: 10%;
+    font-size: 30px;
+    color: rgb(84, 87, 31);
+  }
+  .h2score{
+    /* margin-left: 26%; */
+    background-color: beige;
+    color: peru;
+    padding: 3%;
+    border-radius: 9px;
+    padding-left: 30%;
+    margin-top: 15%;
+  }
+  .reset{
+    background-color: beige;
+    color: peru;
+    width: 40%;
+    margin-left: 27%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .7s;
+    text-decoration: none;
+    margin-top: 12%;
+    margin-left: 30%;
+  }
+.reset:hover{
+    color: #fefefe;
+    background-color: rgb(190 117 68);
+}

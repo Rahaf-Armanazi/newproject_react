@@ -1,0 +1,20 @@
+.image{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 25%;
+    height: 88.6vh;
+    width: 100%;
+    background-image: url("../../Assets/admin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dash{
+    background-image: url("../../Assets/admin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.content-flex{
+    display: flex;
+    height: 88.6vh;
+}

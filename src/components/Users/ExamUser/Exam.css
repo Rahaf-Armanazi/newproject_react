@@ -1,0 +1,42 @@
+.E {
+  box-shadow: 0px 0px 50px rgb(43 41 11);
+  position: absolute;
+  top: 17%;
+  right: 10%;
+  width: 80%;
+  height: 82%;
+  border: 2px solid #95723d;
+  background-color: rgb(194 132 22 / 24%);
+  z-index: 100;
+  overflow: auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.brmg{
+  color: #9f8442;
+  margin: 2%;
+  /* margin-left: 30%; */
+  background-color: #f0f8ffba;
+  padding: 2%;
+}
+.ccc {
+  width: 93%;
+  display: flex;
+  margin: 3%;
+  flex-wrap: wrap;
+}
+.d1{
+  display: flex;
+  margin: 2%;
+}
+.sora {
+  background-color: rgba(240, 248, 255, 0.66);
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 50px black;
+}
+.write{
+  /* margin-left: 18%; */
+  margin-top: 7%;
+}
